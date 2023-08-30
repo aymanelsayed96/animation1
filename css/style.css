@@ -1,0 +1,301 @@
+body{
+    background-color: rgba(47, 47, 58, 0.938);
+}
+.div1 {
+    width: 200px;
+    height: 150px; 
+    top: 0;
+    left: 0;
+    background-image: url(../image/1.jpg);
+    background-size: cover;
+    border: 3px solid;
+    position: absolute;
+    border-radius: 10px;
+    animation-name: stronge ;
+    animation-duration: 5s;
+    animation-timing-function: linear ; 
+    /* animation-delay: 1s; */
+    /* animation-direction: reverse; */
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+}
+@keyframes stronge{
+    0%{
+        background-image: url(../image/2.jpg)  ;
+        background-position: center;
+        background-size: cover;
+        /* translate: 0 0; */
+        /* rotate: 90; */
+        /* right: 100px; */
+        left: 0;
+        /* rotate: 360deg; */
+
+        
+
+    }
+    25%{
+        background-image: url(../image/3.jpg);
+        background-position: center;
+        background-size: cover;
+        /* translate: 0 300px; */
+        /* rotate: 180deg; */
+        /* left: 100px; */
+        /* rotate: 360deg; */
+
+
+
+
+    }
+    50%{
+        background-image: url(../image/4.jpg);
+        background-position: center;
+        background-size: cover;
+        /* translate: 500px 300px; */
+        /* rotate: 90; */
+        /* left: 1330px; */
+        /* width: 1330px; */
+        /* rotate: 360deg; */
+
+
+
+    }
+    75%{
+        background-image: url(../image/5.jpg);
+        background-size: cover;
+        /* translate: 500px 0; */
+        /* rotate: 90; */
+
+
+    }
+    100%{
+        background-image: url(../image/5.jpg);
+        background-position: center;
+        background-size: cover;
+        /* translate: 0 0; */
+        /* rotate: 90; */
+        /* left: 0; */
+        left: 1330px;
+        /* right: 0; */
+        /* rotate: 360deg; */
+    }
+
+
+}
+.div2 {
+    width: 200px;
+    height: 150px; 
+    top: 170px;
+    right:0;
+    animation-timing-function: linear ; 
+    background-image: url(../image/6.jpg);
+    background-size: cover;
+    border: 3px solid;
+    position: absolute;
+    border-radius: 10px;
+    animation-name: stronge2 ;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    /* animation-direction: reverse; */
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+}
+@keyframes stronge2{
+    0%{
+        background-image: url(../image/7.jpg);
+        background-size: cover;
+        /* translate: 0 0; */
+        /* rotate: 90; */
+        /* right: 100px; */
+        right:0;
+
+        
+
+    }
+    25%{
+        background-image: url(../image/8.jpg);
+        background-size: cover;
+        /* translate: 0 300px; */
+        /* rotate: 180deg; */
+        /* left: 100px; */
+
+
+
+    }
+    50%{
+        background-image: url(../image/9.jpg);
+        background-size: cover;
+        /* translate: 500px 300px; */
+        /* rotate: 90; */
+        /* left: 1330px; */
+        /* width: 1330px; */
+
+
+    }
+    75%{
+        background-image: url(../image/10.jpg);
+        background-size: cover;
+        /* translate: 500px 0; */
+        /* rotate: 90; */
+
+
+    }
+    100%{
+        background-image: url(../image/11.webp);
+        background-size: cover;
+        /* translate: 0 0; */
+        /* rotate: 90; */
+        /* left: 0; */
+        right:1330px;
+
+
+
+    }
+
+
+}
+.div3 {
+    width: 200px;
+    height: 150px; 
+    top: 340px ;
+    left: 0;
+    background-image: url(../image/12.jpg);
+    background-size: cover;
+    background-color: brown;
+    border: 3px solid;
+    position: absolute;
+    border-radius: 10px;
+    animation-name: stronge3 ;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    /* animation-direction: reverse; */
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+    animation-timing-function: linear ; 
+
+}
+@keyframes stronge3{
+    0%{
+        background-image: url(../image/13.jpg);
+        background-size: cover;
+        /* translate: 0 0; */
+        /* rotate: 90; */
+        /* right: 100px; */
+        left: 0;
+
+        
+
+    }
+    25%{
+        background-image: url(../image/14.jpg);
+        background-size: cover;
+        /* translate: 0 300px; */
+        /* rotate: 180deg; */
+        /* left: 100px; */
+
+
+
+    }
+    50%{
+        background-image: url(../image/15.jpg);
+        background-size: cover;
+        /* translate: 500px 300px; */
+        /* rotate: 90; */
+        /* left: 1330px; */
+        /* width: 1330px; */
+
+
+    }
+    75%{   
+        background-image: url(../image/25.jpg);
+        background-size: cover;
+        /* translate: 500px 0; */
+        /* rotate: 90; */
+
+
+    }
+    100%{
+        background-image: url(../image/17.webp);
+        background-size: cover;
+        /* translate: 0 0; */
+        /* rotate: 90; */
+        /* left: 0; */
+        left: 1330px;
+
+
+
+    }
+
+
+}
+.div4 {
+    width: 200px;
+    height: 150px; 
+    top: 510px;
+    right:0;
+    background-image: url(../image/19.webp);
+    background-size: cover;
+    border: 3px solid;
+    position: absolute;
+    border-radius: 10px;
+    animation-name: stronge4 ;
+    animation-duration: 5s;
+    animation-delay: 15s;
+    /* animation-direction: reverse; */
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+    animation-timing-function: linear ; 
+
+}
+@keyframes stronge4{
+    0%{
+        background-image: url(../image/20.jpg);
+        background-size: cover;
+        /* translate: 0 0; */
+        /* rotate: 90; */
+        /* right: 100px; */
+        right:0;
+
+        
+
+    }
+    25%{
+        background-image: url(../image/21.jpg);
+        background-size: cover;
+        /* translate: 0 300px; */
+        /* rotate: 180deg; */
+        /* left: 100px; */
+
+
+
+    }
+    50%{
+        background-image: url(../image/22.jpg);
+        background-size: cover;        /* translate: 500px 300px; */
+        /* rotate: 90; */
+        /* left: 1330px; */
+        /* width: 1330px; */
+
+
+    }
+    75%{
+        background-image: url(../image/23.jpg);
+        background-size: cover;     
+           /* translate: 500px 0; */
+        /* rotate: 90; */
+
+
+    }
+    100%{
+        background-image: url(../image/23.jpg);
+        background-size: cover;
+        /* translate: 0 0; */
+        /* rotate: 90; */
+        /* left: 0; */
+        right:1330px;
+
+
+
+    }
+
+
+}
